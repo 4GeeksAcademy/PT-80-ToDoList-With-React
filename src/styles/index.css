@@ -9,3 +9,38 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    margin-top: 100px;
+    background-image: url(https://t3.ftcdn.net/jpg/01/87/48/26/360_F_187482676_p4kgKY9JpZiAQVknqwUJUrBkIxSs0Mog.jpg);
+    background-repeat: none;
+    background-size: 120rem;
+}
+
+ul li {
+    border: 2px solid;
+    list-style: none;
+    padding: 15px; 
+    border-color: rgb(80, 80, 228);
+
+
+}
+ul{
+    padding: 0px ;
+    margin-bottom: 0;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 5rem;
+}
+input{
+    border: none ;
+    background-color: rgba(255, 255, 0, 0.074);
+}
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
